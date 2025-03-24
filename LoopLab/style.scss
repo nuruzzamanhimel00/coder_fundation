@@ -63,6 +63,26 @@ body{
     }
 }
 
+#create-main-section{
+    .fa-check{
+        background: $color-light !important;
+        color: $primary-color !important;
+        font-size: 22px;
+        padding: 5px;
+        border-radius: 4px;
+    
+    }
+}
+#share-details-section{
+    .fa-check{
+        background: $color-dark;
+        color: $color-light !important;
+        padding: 6px;
+        font-size: 20px;
+    
+    }
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 575px) {  }
