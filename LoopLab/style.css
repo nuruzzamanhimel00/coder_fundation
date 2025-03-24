@@ -1,0 +1,52 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.nav-section {
+  background: #333 !important;
+  opacity: 0.7;
+  border-bottom: 3px solid #0D6EFD;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+#home-section {
+  background: url(img/desk.jpeg);
+  background-size: cover; /* Ensures the image covers the entire banner */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Set the width of the banner */
+  background-attachment: fixed;
+}
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.6509803922);
+}
+#home-section .dark-overlay .home-inner {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#home-section .fa-check {
+  background: #fff !important;
+  color: #0D6EFD !important;
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 4px;
+}
+#home-section #signup-form {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  #home-section h1.display-4 {
+    font-size: 30px !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
