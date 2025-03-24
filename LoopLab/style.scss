@@ -1,11 +1,12 @@
 
 $backgound-color: #333;
-$color:#fff;
+$color-light:#fff;
 $dark-overlay: #000000a6;
 $primary-color: #0D6EFD;
+$color-dark: #000;
 body{
     background:$backgound-color;
-    color:$color;
+    color:$color-light;
 }
 .nav-section{
     background: $backgound-color !important;
@@ -13,10 +14,10 @@ body{
     border-bottom: 3px solid $primary-color;
 }
 .navbar-light .navbar-brand {
-    color: $color !important;
+    color: $color-light !important;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: $color !important;
+    color: $color-light !important;
 }
 #home-section{
     background: url(img/desk.jpeg);
@@ -39,8 +40,8 @@ body{
         
     }
     .fa-check{
-        // background-color: $color;
-        background: $color !important;
+        // background-color: $color-light;
+        background: $color-light !important;
         color: $primary-color !important;
         font-size: 22px;
         padding: 5px;
@@ -50,6 +51,16 @@ body{
         opacity: 0.8;
     }
     
+}
+
+#explore-details-section{
+    .fa-check{
+        background: $color-dark;
+        color: $color-light !important;
+        padding: 6px;
+        font-size: 20px;
+    
+    }
 }
 
 
