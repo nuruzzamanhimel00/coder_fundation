@@ -37,6 +37,26 @@ body #showcase-header-section .primary-overlay #showcase-inner {
 body #subscribe-header-serction {
   background-color: #252525;
 }
+body #accordion-header-section .accordion h2.accordion-header div {
+  font-size: 24px;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+body #meet-author-header-section #author-inner .author-card .card img {
+  margin-top: -50px;
+}
+body #meet-author-header-section #author-inner .author-card .card .fab {
+  font-size: 30px;
+}
+body #meet-author-header-section #author-inner .author-card .card:hover {
+  background: #3292A6;
+  color: #fff;
+}
+body #meet-author-header-section #author-inner .author-card .card:hover .fab {
+  color: #fff;
+}
 
 @media (max-width: 575px) {
   body {

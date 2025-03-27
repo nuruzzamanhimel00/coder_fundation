@@ -53,6 +53,43 @@ body{
     #subscribe-header-serction{
         background-color: #252525;
     }
+
+    #accordion-header-section{
+        .accordion{
+            h2.accordion-header{
+                div{
+                    font-size: 24px;
+                    border-bottom: 1px solid #ddd;
+                    padding: 8px 0;
+                    background: #f2f2f2;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    #meet-author-header-section{
+        #author-inner{
+            .author-card{
+                .card{
+                    img{
+                        margin-top: -50px;
+                    }
+                    .fab{
+                        font-size: 30px;
+                    }
+                }
+                .card:hover{
+                    background: $primary;
+                    color: $light;
+                    .fab{
+                        color: $light;
+                    }
+                }
+            }
+            
+        }
+    }
 }
 
 
