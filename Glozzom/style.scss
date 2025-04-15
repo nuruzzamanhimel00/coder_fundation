@@ -1,5 +1,12 @@
 $color-dark : #000;
+#footer-section{
+  background: $color-dark;
+  color: #fff;
+  p{
 
+    font-weight: 600;
+  }
+}
 #main-nav{
     background: $color-dark !important;
     .nav-item{
@@ -132,6 +139,10 @@ $color-dark : #000;
       height: 100%;
     }
   }
+}
+
+#news-letter-section{
+  background-color: #464444;
 }
   // ex-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1200px) { 

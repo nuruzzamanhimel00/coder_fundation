@@ -1,3 +1,11 @@
+#footer-section {
+  background: #000;
+  color: #fff;
+}
+#footer-section p {
+  font-weight: 600;
+}
+
 #main-nav {
   background: #000 !important;
 }
@@ -117,6 +125,10 @@
 }
 #photo-gallery-section .container img {
   height: 100%;
+}
+
+#news-letter-section {
+  background-color: #464444;
 }
 
 @media (max-width: 767px) {
