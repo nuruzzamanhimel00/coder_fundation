@@ -1,0 +1,148 @@
+#main-nav {
+  background: #000 !important;
+}
+#main-nav .nav-item {
+  margin-right: 10px;
+}
+#main-nav .nav-item .nav-link {
+  text-transform: uppercase;
+}
+
+#showcase-section {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+#showcase-section .carousel-item {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+#showcase-section .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+#showcase-section .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+#showcase-section .carousel-item .carousel-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+#showcase-section .carousel-inner {
+  position: relative;
+}
+#showcase-section .carousel-control-prev-icon,
+#showcase-section .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+#home-icons .fas {
+  font-size: 2.5rem;
+}
+
+#get-start-section {
+  background: url(img/bg1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 330px;
+}
+#get-start-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+#get-start-section .container .content-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: 1;
+}
+
+#crash-course-section {
+  background: url(img/people.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+}
+#crash-course-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+#crash-course-section .container {
+  z-index: 2;
+}
+#crash-course-section .container .fab {
+  font-size: 4rem;
+}
+#crash-course-section .container h2 {
+  font-weight: 400;
+}
+
+#photo-gallery-section .container h2 {
+  font-weight: 600;
+}
+#photo-gallery-section .container img {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  #showcase-section .carousel-item .carousel-item-content {
+    width: 80% !important;
+  }
+  #get-start-section .container .content-inner p {
+    font-size: 1.1rem !important;
+  }
+  #home-info .container p {
+    font-size: 1.1rem !important;
+  }
+}
+@media (max-width: 575px) {
+  #showcase-section .carousel-item .carousel-item-content {
+    width: 90% !important;
+  }
+  #showcase-section .carousel-item p.lead {
+    font-size: 1.1rem !important;
+  }
+  #get-start-section .container .content-inner p {
+    font-size: 1.02rem !important;
+  }
+  #home-info .container p {
+    font-size: 1.02rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
