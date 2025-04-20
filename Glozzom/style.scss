@@ -141,6 +141,35 @@ $color-dark : #000;
   }
 }
 
+#banner-section{
+  margin-top: 3.5rem;
+  // background: red;
+  height: 17rem;
+  position: relative;
+  background: url(img/image1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 52%);
+    z-index: 1;
+
+  }
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    transform: translate(-50%, -50%);
+  }
+}
+
 #news-letter-section{
   background-color: #464444;
 }
@@ -181,6 +210,13 @@ $color-dark : #000;
       }
     }
   }
+  #banner-section{
+    .container{
+      p{
+        font-size: 1.1rem !important;
+      }
+    }
+  }
 }
   // ex Small devices (landscape phones, 576px and up)
 @media (max-width: 575px) { 
@@ -207,6 +243,13 @@ $color-dark : #000;
     .container{
       p{
         font-size: 1.02rem !important;
+      }
+    }
+  }
+  #banner-section{
+    .container{
+      p{
+        font-size: 1.1 !important;
       }
     }
   }
